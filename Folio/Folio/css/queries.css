@@ -1,0 +1,28 @@
+@media screen and (min-width: 0px) and (max-width: 1199px) {
+    #hide {display: none;}
+}
+@media screen and (min-width: 0px) and (max-width: 1499px) {
+    #hide1 {display: none;}
+}
+@media screen and (min-width: 0px) and (max-width: 1299px) {
+    #hide2 {display: none;}
+}
+@media screen and (min-width: 0px) and (max-width: 575px) {
+    #hide3 {display: none;}
+}
+@media screen and (min-width: 0px) and (max-width: 414px) {
+    #hide4 {display: none;}
+	  #nav-font {font-size: 150%;}
+		#nav-height {height: 9%;}
+}
+@media screen and (min-width: 0px) and (max-width: 991px) {
+    #hide5 {display: none;}
+}
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    #center-text {text-align: center !important;}
+}
+
+.input-readonly:hover {
+	opacity: 0.4;
+	content: "";
+}
