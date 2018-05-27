@@ -26,3 +26,7 @@
 	opacity: 0.4;
 	content: "";
 }
+
+.story {
+	padding-top:120px; padding-bottom: 120px; background-image:url(images/bgimg.jpg);background-repeat: no-repeat;background-attachment: fixed;background-position: center;background-size: cover;
+}
