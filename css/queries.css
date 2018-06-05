@@ -32,6 +32,7 @@
 		#about {padding-top:90px !important;}
 		#sec1, #sec2, #sec3 {padding-top:90px !important;}
 		#sec3 {padding-bottom: 60px !important;}
+		#skill {padding-bottom: 10px;}
 }
 @media screen and (min-width: 0px) and (max-width: 406px) {
 		#navmenu {display: none;}
