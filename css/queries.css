@@ -21,6 +21,22 @@
 @media screen and (min-width: 0px) and (max-width: 767px) {
     #center-text {text-align: center !important;}
 }
+@media screen and (min-width: 0px) and (max-width: 375px) {
+		#navmenu {margin-right: -90px;}
+}
+@media screen and (min-width: 0px) and (max-width: 414px) {
+		#navmenu {margin-left: 160px;}
+}
+@media screen and (min-width: 0px) and (max-width: 414px) {
+		#nomargin {margin-bottom: 5% !important;}
+		#about {padding-top:90px !important;}
+		#sec1, #sec2, #sec3 {padding-top:90px !important;}
+		#sec3 {padding-bottom: 60px !important;}
+}
+@media screen and (min-width: 0px) and (max-width: 406px) {
+		#navmenu {display: none;}
+	
+}
 
 .input-readonly:hover {
 	opacity: 0.4;
