@@ -16,7 +16,10 @@
 		#nav-height {height: 9%;}
 }
 @media screen and (min-width: 0px) and (max-width: 991px) {
-    #hide5 {display: none;}
+	#hide5 {display: none;}
+	#sep {display: none;}
+	.nav-icons {display: block;}
+	#pad-change {padding-top: 6px;}
 }
 @media screen and (min-width: 0px) and (max-width: 767px) {
     #center-text {text-align: center !important;}
@@ -33,6 +36,7 @@
 		#sec1, #sec2, #sec3 {padding-top:90px !important;}
 		#sec3 {padding-bottom: 60px !important;}
 		#skill {padding-bottom: 10px;}
+		#sep {display: none;}
 }
 @media screen and (min-width: 0px) and (max-width: 406px) {
 		#navmenu {display: none;}
