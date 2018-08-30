@@ -40,7 +40,9 @@
 }
 @media screen and (min-width: 0px) and (max-width: 406px) {
 		#navmenu {display: none;}
-	
+}
+@media screen and (min-width: 0px) and (min-width: 992px) {
+		#nav-item-hide {display: none;}
 }
 
 .input-readonly:hover {

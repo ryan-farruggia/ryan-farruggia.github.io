@@ -19,6 +19,7 @@
 	<link href="css/queries.css" rel="stylesheet">
   <link rel="icon" href="images/checkmark.ico">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/animate.min.css">
 </head>
 <body>
 
@@ -32,10 +33,10 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div id="pad-change" class="navbar-nav" style="color: white; font-size: 20px;">
             <span id="sep" style="font-size: 25px;" class="nav-item nav-link">|</span>
-            <a class="nav-item nav-link nav-hover" href="#header"><i class="fas fa-home"></i> Home</a>
-            <a class="nav-item nav-link nav-hover" href="#about"><i class="fas fa-info-circle"></i> About</a>
-            <a class="nav-item nav-link nav-hover" href="#portfolio"><i class="fas fa-clipboard-list"></i> Skills</a>
-            <a class="nav-item nav-link nav-hover" href="#sec1"><i class="fas fa-graduation-cap"></i> My Story</a>
+            <a class="nav-item nav-link nav-hover" href="#header"><i id="nav-item-hide" class="fas fa-home"></i> Home</a>
+            <a class="nav-item nav-link nav-hover" href="#about"><i id="nav-item-hide" class="fas fa-info-circle"></i> About</a>
+            <a class="nav-item nav-link nav-hover" href="#portfolio"><i id="nav-item-hide" class="fas fa-clipboard-list"></i> Skills</a>
+            <a class="nav-item nav-link nav-hover" href="#sec1"><i id="nav-item-hide" class="fas fa-graduation-cap"></i> My Story</a>
           </div>
         </div>
   </nav>
@@ -45,8 +46,8 @@
   <div id="header" class="home">
     <div class="container">
       <div class="header-content">
-        <h1 style="margin-top: 40px;color: white">I'm <span class="typed"></span></h1>
-        <p style="font-size:20px;">Engineer, Developer, Student</p>
+        <h1 style="color: white">I'm <span class="typed"></span></h1>
+        <p style="font-size:20px;"><b class="animated fadeInLeft" style="animation-delay: 200ms;">Engineer,</b> <b class="animated fadeInLeft" style="animation-delay: 400ms;">Developer,</b> <b style="animation-delay: 600ms;" class="animated fadeInLeft">Student</b></p>
     		<ul class="social-icons">
         <li><a href="https://www.facebook.com/rfarr99" class="social-icon" target="_blank"> <i style="border-radius: 5px;" class="fab fa-facebook"></i></a></li>
         <li><a href="" class="social-icon"> <i style="border-radius: 5px;" class="fab fa-twitter"></i></a></li>
@@ -65,7 +66,7 @@
 
   <!--Programming Section-->
 
-  <div id="about" class="paddsection" style="padding-top:150px; padding-bottom: 30px; background-color: #222;">
+  <div id="about" class="paddsection" style="padding-top:100px; padding-bottom: 50px; background-color: #222;">
         <div class="container">
           <div class="row justify-content-between">
             <div class="col-lg-4" id="hide">
@@ -77,22 +78,22 @@
             </div>
             <div class="col-lg-7">
               <div class="about-descr">
-                <h2 class="mb-30" style="color: lightgray;">Programming</h2>
-                <p class="separator" style="font-size: 16px; color: lightgray;">
+                <h2 class="mb-30 wow fadeIn quick" style="color: lightgray;">Programming</h2>
+                <p class="wow fadeIn separator quick" style="font-size: 16px; color: lightgray;animation-delay: 300ms;">
                   At first glance, programming, artificial intelligence, and the world of 
                   <a class="text" href="https://en.wikipedia.org/wiki/Computer_Science" style="font-weight: 600;color:mediumpurple;" target="_blank">Computer Science</a>
                   seems overly complex.
                   Considering the invention of the computer is a miracle by itself, I'd be quite disappointed if it weren't so complicated.
                   I've been fascinated by computers and mathematics for the majority of my life and have an increasingly large passion for it all.
                 </p>
-                <p class="separator" style="font-size: 16px; color: lightgray;">
+                <p class="separator wow fadeIn" style="font-size: 16px; color: lightgray;animation-delay: 400ms;">
                   Using my growing knowledge in the field of mathematics, 
                   my skills have greatly improved, 
                   and the products I've built have gotten significantly better, 
                   both in size reduction and consistency.
                 </p>
                 <br>
-                <a href="#AI" style="color: turquoise; font-size: 20px;font-weight: 700;" class="text wow fadeInUp" data-wow-delay="1000ms">
+                <a href="#AI" style="color: turquoise; font-size: 20px;font-weight: 700;animation-delay: 500ms;" class="text wow fadeInUp">
                   Artificial Intelligence <i class="fas fa-sign-in-alt"></i>
                 </a>
               </div>
@@ -100,9 +101,8 @@
           </div>
         </div>
   </div>
-  <div id="services" style="background-color: #222;padding-bottom: 150px;">
+  <div id="services" style="background-color: #222;padding-bottom: 150px;padding-top: 20px;">
         <div class="container">
-          <p class="animated flash infinite" style="margin-top:0; font-size: 20px; font-weight:900; animation-duration: 3s; animation-timing-function: ease-in-out;" id="hide3">Try Hovering >></p>
             <div class="services-carousel owl-theme">
               <div class="services-block box4" style="border-radius: 10px;">
                 <i class="fas fa-file-code"></i>
@@ -140,20 +140,20 @@
 
   <!--Artificial Intelligence Section-->
 
-  <div id="AI" class="about paddsection" style="padding-top:120px; padding-bottom: 200px; background-color: #333;">
+  <div id="AI" class="about paddsection" style="padding-top:100px; padding-bottom: 100px; background-color: #333;">
     <div class="container">
       <div class="row justify-content-between">
         <div class="col-lg-7">
           <div class="about-descr">
-            <h2 class="mb-30" style="color: lightgray;">Artificial Intelligence</h2>
-            <p style="font-size: 16px; color: lightgray;">
+            <h2 class="mb-30 wow fadeIn quick" style="color: lightgray;">Artificial Intelligence</h2>
+            <p class="wow fadeIn" style="font-size: 16px; color: lightgray;animation-delay:300ms;">
               Artificial Intelligence is increasing in popularity by countless numbers of companies looking to <u style="color: white;">make automation faster and more efficient</u>.
               Being able to solve highly complex tasks within milliseconds, 
               <b style="font-weight: 600;">AI</b> and its close sibling
                 <a class="text" href="https://en.wikipedia.org/wiki/Machine_learning" style="font-weight: 600;color:mediumpurple;" target="_blank">Machine Learning</a>
                 have seen huge market demand in recent years.
-              <br>
-              <br>
+                </p>
+              <p class="wow fadeIn" style="font-size: 16px; color: lightgray;animation-delay:400ms;">
               Below is a very, very basic 
               <a target="_blank" class="text" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype" style="font-weight: 600;color:limegreen;">prototyping</a>
                code block in JavaScript and finds the most cost efficient 'candidates' out of a given pool. Given 255 candidates, pick one from
@@ -173,7 +173,7 @@
 });</code></pre>
 						<br>
 						<div class="container" style="justify-content: center; text-align: center;">
-              <a href="#portfolio" style="color: white; font-size: 23px;font-weight: 700;" class="text wow fadeInUp" data-wow-delay="1000ms">
+              <a href="#design" style="color: white; font-size: 23px;font-weight: 700;" class="text" data-wow-delay="1000ms">
                 Web Design <i class="fas fa-sign-in-alt"></i>
               </a>
             </div>
@@ -192,7 +192,7 @@
 
   <!--Web Design Section-->
 
-  <div id="design" class="about paddsection" style="padding-top:150px; padding-bottom: 150px; background-color: #222;">
+  <div id="design" class="about paddsection" style="padding-top:100px; padding-bottom: 100px; background-color: #222;">
       <div class="container">
         <div class="row justify-content-between">
           <div class="col-lg-4" id="hide" style="margin-top: 100px;">
@@ -204,8 +204,8 @@
           </div>
           <div class="col-lg-7">
             <div class="about-descr">
-              <h2 class="mb-30" style="color: lightgray;">Web Design</h2>
-              <p style="font-size: 16px; color: lightgray;">
+              <h2 class="mb-30 wow fadeIn" style="color: lightgray;">Web Design</h2>
+              <p class="wow fadeIn" style="font-size: 16px; color: lightgray;animation-delay: 400ms;">
                 Web Design is where my roots are; I started off learning simple HTML tags and CSS rules/attributes. With both of these being a breeze, I moved onto JavaScript
                 within only a few weeks where I began to dive into backend programming. Being the three primary web design languages - 
                 <a class="text" href="https://en.wikipedia.org/wiki/HTML" style="font-weight: 600;color:red;" target="_blank">HTML5</a>, 
@@ -214,7 +214,7 @@
                 <a class="text" href="https://en.wikipedia.org/wiki/JavaScript" style="font-weight: 600;color:yellow;" target="_blank">JavaScript</a> 
                 are extremely easy to learn and offer unlimited possibilities.
               </p>
-              <p style="font-size: 16px; color: lightgray;">
+              <p class="wow fadeIn" style="font-size: 16px; color: lightgray;animation-delay: 500ms;">
                 With arguably the best implementation of 
                 <a class="text" href="https://en.wikipedia.org/wiki/ECMAScript" style="font-weight: 600;color:limegreen;" target="_blank">ECMAScript</a>
                 in the world, JavaScript has helped me learn AI, Web Design, and the fundamentals of coding. Not only that,
@@ -234,7 +234,7 @@
 }
 </code></pre>
             <div class="container" style="justify-content: center; text-align: center;">
-              <a href="#portfolio" style="color: white; font-size: 23px;font-weight: 700;" class="text wow fadeInUp" data-wow-delay="1000ms">
+              <a href="#portfolio" style="color: white; font-size: 23px;font-weight: 700;" class="text" data-wow-delay="1000ms">
                 My Portfolio <i class="fas fa-sign-in-alt"></i>
               </a>
             </div>
@@ -249,8 +249,7 @@
   <div id="portfolio" class="text-center paddsection" style="background-color: #333;">
     <div class="container">
       <div id="nomargin" class="section-title text-center">
-        <h2 style="font-size: 200%; color: lightgray;">My Portfolio</h2>
-				<a href="#sec1" style="color: lightgray; font-size: 18px;" class="text wow fadeInUp" data-wow-delay="1000ms">My Story >></a>
+        <h2 style="font-size: 250%; color: lightgray;text-transform: none; margin-bottom: -20px;">My Portfolio</h2>
       </div>
     </div>
     <div class="container">
@@ -259,15 +258,13 @@
           <div class="portfolio-list">
             <ul class="nav list-unstyled" id="portfolio-flters">
               <li style="font-size: 130%;" class="filter filter-active" data-filter=".all">all</li>
-							<li style="font-size: 130%;" class="filter" data-filter=".skills">Skills</li>
-              <li style="font-size: 130%;" class="filter" data-filter=".games">Games<sup> BETA</sup></li>
-              <li style="font-size: 130%;" class="filter" data-filter=".projects">Projects</li>
-              <li style="font-size: 130%;" class="filter" data-filter=".pens">Pens</li>
+              <li style="font-size: 130%;" class="filter" data-filter=".skills">Skills</li>
+              <li style="font-size: 130%;" class="filter" data-filter=".pens">Snippets</li>
               <li style="font-size: 130%;" class="filter" data-filter=".webdesign">web design</li>
             </ul>
           </div>
           <div class="portfolio-container">
-            <div id="skill" class="col-lg-4 col-md-6 portfolio-thumbnail all webdesign skills">
+            <div id="skill" class="col-lg-4 col-md-6 portfolio-thumbnail all webdesign skills wow zoomIn" style="animation-delay: 200ms;">
 							<a class="popup-img" href="images/html5.png">
 								<img style="display: none;" src="images/html5.png" alt="img">
           		<div class="services-block box5">
@@ -277,7 +274,7 @@
           		</div>
 							</a>
             </div>
-            <div id="skill" class="col-lg-4 col-md-6 portfolio-thumbnail all webdesign skills">
+            <div id="skill" class="col-lg-4 col-md-6 portfolio-thumbnail all webdesign skills wow zoomIn" style="animation-delay: 250ms;">
               <a class="popup-img" href="images/css.jpg">
 								<img style="display: none;" src="images/css.jpg" alt="img">
                 <div class="services-block box4">
@@ -288,7 +285,7 @@
               </a>
             </div>
 						
-            <div id="skill" class="col-lg-4 col-md-6 portfolio-thumbnail all webdesign skills">
+            <div id="skill" class="col-lg-4 col-md-6 portfolio-thumbnail all webdesign skills wow zoomIn" style="animation-delay: 300ms;">
               <a class="popup-img" href="images/javascript.png">
 								<img style="display: none;" src="images/javascript.png" alt="img">
                 <div class="services-block box6">
@@ -298,7 +295,7 @@
           		</div>
               </a>
             </div>
-            <div id="skill" class="col-lg-4 col-md-6 portfolio-thumbnail all skills">
+            <div id="skill" class="col-lg-4 col-md-6 portfolio-thumbnail all skills wow zoomIn" style="animation-delay: 350ms;">
               <a class="popup-img" href="images/python.jpg">
 								<img style="display: none;" src="images/python.jpg" alt="img">
                 <div class="services-block box1">
@@ -308,7 +305,7 @@
           		</div>
               </a>
             </div>
-            <div id="skill" class="col-lg-4 col-md-6 portfolio-thumbnail all skills">
+            <div id="skill" class="col-lg-4 col-md-6 portfolio-thumbnail all skills wow zoomIn" style="animation-delay: 400ms;">
               <a class="popup-img" href="images/csharp.jpg">
 								<img style="display: none;" src="images/csharp.jpg" alt="img">
                 <div class="services-block box1">
@@ -318,7 +315,7 @@
           		</div>
               </a>
             </div>
-						<div id="skill" class="col-lg-4 col-md-6 portfolio-thumbnail all skills">
+						<div id="skill" class="col-lg-4 col-md-6 portfolio-thumbnail all skills wow zoomIn" style="animation-delay: 450ms;">
               <a class="popup-img" href="images/java.jpg">
 								<img style="display: none;" src="images/java.jpg" alt="img">
                 <div class="services-block box1">
@@ -328,25 +325,7 @@
           		</div>
               </a>
             </div>
-						<div id="skill" class="col-lg-4 col-md-6 portfolio-thumbnail all projects">
-							<a href="https://sheldonchoir.github.io" target="_blank">
-                <div class="services-block box4">
-            		<i class="ion-ios-musical-notes"></i>
-            		<span>The Sheldon Choir</span>
-            		<p class="separator">A project that has since been abandoned by request of client, for a high school's vocal group.</p>
-          		</div>
-							</a>
-            </div>
-						<div id="skill" class="col-lg-4 col-md-6 portfolio-thumbnail all projects">
-              	<a href="https://coffee-shop.github.io" target="_blank">
-							<div class="services-block box4">
-            		<i class="ion-md-beer"></i>
-            		<span>The Coffee Bean</span>
-            		<p class="separator">A finished project for a newly opened and promising coffee shop. Domain has yet to be purchased; hosted on GitHub Pages.</p>
-          		</div>
-							</a>
-            </div>
-						<div id="skill" class="col-lg-4 col-md-6 portfolio-thumbnail all pens">
+						<div id="skill" class="col-lg-4 col-md-6 portfolio-thumbnail all pens wow zoomIn" style="animation-delay: 500ms;">
 							<a href="https://codepen.io/akm2/pen/rHIsa" target="_blank">
           		<div class="services-block box1">
             		<i class="ion-social-codepen"></i>
@@ -355,7 +334,7 @@
           		</div>
 							</a>
             </div>
-						<div id="skill" class="col-lg-4 col-md-6 portfolio-thumbnail all pens">
+						<div id="skill" class="col-lg-4 col-md-6 portfolio-thumbnail all pens wow zoomIn" style="animation-delay: 550ms;">
 							<a href="https://codepen.io/dissimulate/pen/KrAwx" target="_blank">
           		<div class="services-block box1">
             		<i class="ion-social-codepen"></i>
@@ -364,7 +343,7 @@
           		</div>
 							</a>
             </div>
-						<div id="skill" class="col-lg-4 col-md-6 portfolio-thumbnail all pens">
+						<div id="skill" class="col-lg-4 col-md-6 portfolio-thumbnail all pens wow zoomIn" style="animation-delay: 600ms;">
 							<a href="https://codepen.io/shubniggurath/pen/gzjzom" target="_blank">
           		<div class="services-block box1">
             		<i class="ion-social-codepen"></i>
@@ -383,15 +362,15 @@
       <div class="row justify-content-between">
         <div class="col-lg-7">
           <div class="about-descr">
-            <h2 class="mb-50" style="color:lightgray;">My Story</h2>
-            <p style="font-size: 17px; color:lightgray;width:100%;">
+            <h2 class="mb-50 wow fadeIn quick" style="color:lightgray;">My Story</h2>
+            <p class="wow fadeIn" style="font-size: 17px; color:lightgray;width:100%;animation-delay: 300ms;">
               Back in High School, I was definitely <b><i>not</i></b> a party-all-night kind of teenager. 
               No, I spent most of my free time reading books and practicing Visual Basic, a very simple programming language that is used to make 
               brilliant applications such as 
               <a class="text" style="color: darkorange; font-weight: 450;" href="https://www.autodesk.com/education/free-software/autocad" target="_blank">AutoCAD</a>. 
               While you won't see VB or .NET much at all these days, it was a great place to start diving into functional programming with <b>C#</b> and <b>C++</b>.</p>
 						
-            <p style="font-size: 17px; color: lightgray;width:100%;">
+            <p class="wow fadeIn" style="font-size: 17px; color: lightgray;width:100%;animation-delay: 400ms;">
               At the time, I didn't quite know what I wanted to do with my life and truly believed that my mediocre guitar skills would pay the bills.
               Over the Summer of 2017, I quickly realized that the one thing I enjoyed doing on my weekends was a huge career opportunity. 
               I wanted to become a software engineer. I started off simple, learning Web Design with 
@@ -401,7 +380,7 @@
               <a class="text" href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" style="color: mediumpurple; font-weight: 450;">JavaScript</a> 
               and instantly loved it all. By the way, this website is completely hard coded, with no use of expensive third-party software.</p>
 						
-						<p class="separator" style="font-size: 17px; color: lightgray;">Also, <a class="text" href="https://github.com/" target="_blank" style="color: limegreen; font-weight: 450;">GitHub </a>is brilliant.</p>
+						<p class="separator wow fadeIn" style="font-size: 17px; color: lightgray;animation-delay: 500ms;">Also, <a class="text" href="https://github.com/" target="_blank" style="color: limegreen; font-weight: 450;">GitHub </a>is brilliant.</p>
 						<br>
 						<a href="#sec2" style="color: white; font-size: 23px;" class="text">Video Games >></a>
           </div>
@@ -440,13 +419,13 @@
 						<img src="https://discordapp.com/assets/215346366a9a7d50924fc245ddb048d2.svg" id="hide5">
 					</div>
           <div class="about-descr">
-            <h2 class="mb-30" style="color:lightgray;">Video Games</h2>
-						<p style="font-size: 17px;color:lightgray;">I've been playing video games all my life, and every now and then a specific thought pops into my head: <i><b>"How did the devs do this?!"</b></i> <a class="text" href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda" style="text-decoration: underline; color: plum; font-weight: 450;" target="_blank">The Legend of Zelda</a> is a great example of a game that provokes this thought. There are so many small details and core parts of the game that are intentionally implemented by developers but rarely get any attention. Even the simplest of games take a decent amount of backend skills in programming.</p>
+            <h2 class="mb-30 wow fadeIn quick" style="color:lightgray;">Video Games</h2>
+						<p class="wow fadeIn" style="font-size: 17px;color:lightgray;animation-delay: 300ms;">I've been playing video games all my life, and every now and then a specific thought pops into my head: <i><b>"How did the devs do this?!"</b></i> <a class="text" href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda" style="text-decoration: underline; color: plum; font-weight: 450;" target="_blank">The Legend of Zelda</a> is a great example of a game that provokes this thought. There are so many small details and core parts of the game that are intentionally implemented by developers but rarely get any attention. Even the simplest of games take a decent amount of backend skills in programming.</p>
 						<div class="block" id="hide2">
 						<img src="https://discordapp.com/assets/81d74b2ebb053fbccee41865a47d48c3.svg">
 						</div>
-						<p style="font-size: 17px;color:lightgray;">Video games are <b style="text-decoration: underline;">extremely important</b> to me, and I can't say I'd be able to stay sane without them. For me, the greatest feeling in the world is coming home and being able to relax and play a casual simulation game after a long day of classes, or queueing up with some randoms and competing against my fellow <a class="text" href="https://www.youtube.com/watch?v=amHIz1hYRb0" style="text-decoration: underline; color: limegreen; font-weight: 450;font-size:19px;" target="_blank">super-n00bs</a> online.</p>
-						<p class="separator" style="font-size: 17px;color:lightgray;">Never stop learning.</p>
+						<p class="wow fadeIn" style="font-size: 17px;color:lightgray;animation-delay: 400ms;">Video games are <b style="text-decoration: underline;">extremely important</b> to me, and I can't say I'd be able to stay sane without them. For me, the greatest feeling in the world is coming home and being able to relax and play a casual simulation game after a long day of classes, or queueing up with some randoms and competing against my fellow <a class="text" href="https://www.youtube.com/watch?v=amHIz1hYRb0" style="text-decoration: underline; color: limegreen; font-weight: 450;font-size:19px;" target="_blank">super-n00bs</a> online.</p>
+						<p class="separator wow fadeIn" style="font-size: 17px;color:lightgray;animation-delay: 500ms;">Never stop learning.</p>
 						<br>
 						<br>
 						<a href="#sec3" style="color: white; font-size: 23px;" class="text">Technology >></a>
@@ -460,17 +439,17 @@
         <div class="row justify-content-between">
           <div class="col-lg-7">
               <div class="about-descr">
-                  <h2 class="mb-30" style="color: lightgray;">Technology</h2>
-                  <p style="font-size:16px;color:lightgray;">
+                  <h2 class="mb-30 wow fadeIn quick" style="color: lightgray;">Technology</h2>
+                  <p class="wow fadeIn" style="font-size:16px;color:lightgray;animation-delay: 300ms;">
                     Electronics and Engineering have always fascinated me and I remember spending countless hours as a child just researching the best devices and electronic
                     accessories. After playing on consoles for the majority of my childhood, 
                     <a class="text" href="https://en.wikipedia.org/wiki/HTML" target="_blank" style="color: mediumorchid; font-weight: 450;">Steam&trade;</a> 
                     was becoming extremely popular and PC gaming became the ultimate meta.
                     By the time I was fifteen, I had already learned how to build my own Personal Computer and permanently merged to using computers.
                   </p>
-                  <p style="font-size: 16px;color:lightgray;">
+                  <p class="wow fadeIn" style="font-size: 16px;color:lightgray;animation-delay: 400ms;">
                     While I'm not the biggest Apple&trade; fan, the company has produced some fantastic lineups of laptops and mobile phones. I haven't studied <a href="https://en.wikipedia.org/wiki/Swift_(programming_language)" target="_blank" class="text" style="color: darkorange; font-weight: 450;">Swift</a>, and do not plan to any time soon, but it has definitely shaped the iPhone scene in the most permanent way this past decade.</p>
-                  <p style="font-size: 16px;color:lightgray;">
+                  <p class="wow fadeIn" style="font-size: 16px;color:lightgray;animation-delay: 500ms;">
                     Personal Computers are becoming increasingly more popular as video games like <a href="https://www.epicgames.com/fortnite/en-US/home" target="_blank" class="text" style="color: turquoise; font-weight: 450;">Fortnite</a> and <a href="https://play.na.leagueoflegends.com/en_US" target="_blank" class="text" style="color: limegreen; font-weight: 450;">League of Legends</a> take the market by storm and run Microsoft&trade; and Sony&trade; out of the gaming industry.</p>
                   <br>
                   <a href="#contact" style="font-size: 23px;color:white;" class="text">Contact Me >></a>
@@ -554,7 +533,10 @@
 
   <div id="footer" class="text-center" style="background-color: #333;">
     <div class="container">
-			<p style="font-size: 22px;color: white;">&copy; Ryan Farruggia <i style="color: deepskyblue;" class="fas fa-user-graduate"></i> 2017-2018</p>
+      <p style="font-size: 22px;color: white;">&copy; 
+          Ryan Farruggia
+      <i style="color: deepskyblue;" class="fas fa-user-graduate"></i> 2017-2018
+    </p>
     </div>
   </div>
 
@@ -612,6 +594,5 @@
   </script>
   <script href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
-
 </body>
 </html>
