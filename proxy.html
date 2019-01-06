@@ -9,18 +9,32 @@
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <script src='https://www.google.com/recaptcha/api.js?render=6LeSLIcUAAAAAKwWwX06KoJRHCtFkIts9rKYNgej'></script>
   </head>
+  <style>
+    .centered {
+      position: fixed;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    input {
+      font-size:20px;
+      padding:10px;
+      border-radius:5px;
+      background:white;
+    }
+  </style>
   <body style="background-color:#333;color:lightgrey;">
-    <div class="container">
+    <div class="container centered">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h1 class="mt-5">The page you are attempting to view is password protected.</h1>
-          <p class="lead">Enter the password I've given you through the button below.</p>
+          <h1 class="mt-5" style="font-size:40px;">The page you are attempting to view is password protected.</h1>
+          <p class="lead" style="color:white;font-size:25px;">Enter the password I've given you through the button below.</p>
           <ul class="list-unstyled">
             <li><a href="index.html">Go Back</a></li>
             <li><a href="" onclick="location.reload()">Reload Page</a></li>
           </ul>
           <form>
-            <input type="button" value="View Protected Content" onClick="passWord()">
+            <input type="button" class="btn btn-primary btn-lg btn-block" value="View Protected Content" onClick="passWord()">
           </form>
         </div>
       </div>
@@ -35,6 +49,6 @@
         // Verify the token on the server.
         });
         });
-        </script>
+    </script>
   </body>
 </html>
