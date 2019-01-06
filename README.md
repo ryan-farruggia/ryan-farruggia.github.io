@@ -63,12 +63,12 @@ Testing backend intelligence and integrity through error log analytics and repor
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Download a packed .zip file with all materials under the MIT license.
 
 ## My Repositories
 
-[Biscuit] (https://github.com/ryan-farruggia)
-[sheldonchoir] (https://github.com/sheldonchoir)
+* [Biscuit] (https://github.com/ryan-farruggia)
+* [sheldonchoir] (https://github.com/sheldonchoir)
 
 ## Versioning
 
@@ -77,8 +77,6 @@ Website build v1.2.9 built entirely from scratch by **Ryan Farruggia**.
 ## Authors
 
 * **Biscuit_090** - *Initial work* - [Ryan Farruggia](https://github.com/ryan-farruggia)
-
-
 
 ## License
 
