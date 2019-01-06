@@ -1,18 +1,1 @@
-function passWord() {
-    var testV = 1;
-    var pass1 = prompt('Enter Password (Case Sensitive):','');
-        while (testV < 3) {
-            if (!pass1) 
-                window.open('index.html','_self');
-            if (pass1 == "xEqtionr0901") {
-                window.open('education.html','_self');
-            break;
-            }
-        testV+=1;
-        var pass1 = prompt('Access Denied - Password Incorrect','Password');
-        }
-        if (pass1.toLowerCase()!="password" & testV ==3) {
-            window.open('index.html','_self');
-            return " ";
-        }
-}
+var _0x42ee=['education.html','Access\x20Denied\x20-\x20Password\x20Incorrect','toLowerCase','password','index.html','Enter\x20Password\x20(Case\x20Sensitive):','open','_self','*******'];(function(_0x124034,_0x5da451){var _0x327704=function(_0xb72447){while(--_0xb72447){_0x124034['push'](_0x124034['shift']());}};_0x327704(++_0x5da451);}(_0x42ee,0x1be));var _0x468c=function(_0x5b8052,_0x321697){_0x5b8052=_0x5b8052-0x0;var _0x50f7fb=_0x42ee[_0x5b8052];return _0x50f7fb;};function passWord(){var _0x210a92=0x1;var _0x16a5dd=prompt(_0x468c('0x0'),'');while(_0x210a92<0x3){if(!_0x16a5dd)window[_0x468c('0x1')]('index.html',_0x468c('0x2'));if(_0x16a5dd==_0x468c('0x3')){window[_0x468c('0x1')](_0x468c('0x4'),_0x468c('0x2'));break;}_0x210a92+=0x1;var _0x16a5dd=prompt(_0x468c('0x5'),'Password');}if(_0x16a5dd[_0x468c('0x6')]()!=_0x468c('0x7')&_0x210a92==0x3){window[_0x468c('0x1')](_0x468c('0x8'),_0x468c('0x2'));return'\x20';}}
