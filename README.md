@@ -58,7 +58,7 @@ Google Analytics installed into <head> and related scripts installed for basic d
 Testing backend intelligence and integrity through error log analytics and reporting.
 
 ```
-<script src='analytics.google.com/scripts/users/biscuit_090/HASH_KEY_HIDDEN onload='window.replace(index.html);'
+<script src='analytics.google.com/users/biscuit_090/HASH_KEY_HIDDEN></script>
 ```
 
 ## Deployment
@@ -67,8 +67,8 @@ Add additional notes about how to deploy this on a live system
 
 ## My Repositories
 
-* [Biscuit] (https://github.com/ryan-farruggia)
-* [sheldonchoir] (https://github.com/sheldonchoir)
+[Biscuit] (https://github.com/ryan-farruggia)
+[sheldonchoir] (https://github.com/sheldonchoir)
 
 ## Versioning
 
@@ -86,5 +86,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to * [Codepen](https://codepen.io) and * [Pexels](https://pexels.com) for helpful snippets and beautiful images.
+Hat tip to [Codepen](https://codepen.io) and [Pexels](https://pexels.com) for helpful snippets and beautiful images.
 
