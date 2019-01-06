@@ -14,23 +14,32 @@ Cookies are used on the site to improve load times and overall experience.
 window.open(../imgCookie.jdk);
 window.replace(proxy.html);
 
-- json files included client side -
+// json files included client side
 ```
 
-### Installing
+### Navigation
 
-A step by step series of examples that tell you how to get a development env running
+A step by step list of different pages and sections to be completed.
 
-Say what the step will be
+- [x] Home
+- [x] Skills
+- [x] Portfolio
+- [x] My Story
+- [x] Contact
+- [ ] Education
 
 ```
-Give the example
+// To do:
+
+// Move 'My Story to a new .html file to make room and reduce load times.
+// Finish Education portfolio
+// Finalize education-test.htm for testing phase.
 ```
 
-And repeat
+Lower priority:
 
 ```
-until finished
+// Move 'My Story to a new .html file to make room and reduce load times.
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
