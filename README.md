@@ -28,14 +28,14 @@ A step by step list of different pages and sections to be completed.
 - [x] Contact
 - [ ] Education
 
-```
-// High Priority
+### High Priority
 
+```
 // Finish Education portfolio
 // Finalize education-test.htm for testing phase.
 ```
 
-Lower priority:
+### Lower Priority:
 
 ```
 // Move 'My Story to a new .html file to make room and reduce load times.
