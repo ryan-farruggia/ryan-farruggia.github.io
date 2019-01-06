@@ -29,9 +29,8 @@ A step by step list of different pages and sections to be completed.
 - [ ] Education
 
 ```
-// To do:
+// High Priority
 
-// Move 'My Story to a new .html file to make room and reduce load times.
 // Finish Education portfolio
 // Finalize education-test.htm for testing phase.
 ```
@@ -42,51 +41,44 @@ Lower priority:
 // Move 'My Story to a new .html file to make room and reduce load times.
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+## Running tests
 
-## Running the tests
+Running exclusive unlisted hyperlinks for best random results.
 
-Explain how to run the automated tests for this system
+### Break down
 
-### Break down into end to end tests
-
-Explain what these tests test and why
+Google Analytics installed into <head> and related scripts installed for basic data collection on user activity.
 
 ```
-Give an example
+<link href='analytics.google.com/HASH_KEY_HIDDEN' integrity='2g5tGHU606hYtLLKm'>
 ```
 
-### And coding style tests
+### Backend testing
 
-Explain what these tests test and why
+Testing backend intelligence and integrity through error log analytics and reporting.
 
 ```
-Give an example
+<script src='analytics.google.com/scripts/users/biscuit_090/HASH_KEY_HIDDEN onload='window.replace(index.html);'
 ```
 
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
 
-## Built With
+## My Repositories
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+* [Biscuit] (https://github.com/ryan-farruggia)
+* [sheldonchoir] (https://github.com/sheldonchoir)
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+Website build v1.2.9 built entirely from scratch by **Ryan Farruggia**.
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Biscuit_090** - *Initial work* - [Ryan Farruggia](https://github.com/ryan-farruggia)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
 
 ## License
 
@@ -94,6 +86,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Hat tip to * [Codepen](https://codepen.io) and * [Pexels](https://pexels.com) for helpful snippets and beautiful images.
+
