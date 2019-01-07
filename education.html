@@ -1,27 +1,432 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>My Education</title>
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  </head>
-  <body style="background-color:#333;color:lightgrey;">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112617768-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-112617768-3');
+  </script>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="description" content="My name is Ryan Farruggia. This is my resum&eacute;.">
+  <meta name="author" content="Ryan Farruggia">
+  <title>My Education</title>
+  <meta content="Ryan Farruggia" name="keywords">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+  <link rel="icon" href="images/checkmark.ico">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran|Courgette" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+</head>
+<body>
+
+
+  <!--Navigation-->
+  <nav class="navbar navbar-expand-lg" style="background-color: #333; margin: 0; color: white;position:fixed;padding-bottom: 15px;padding-top: 15px;">
+    <a class="navbar-brand nav-hover" href="#" style="font-size: 25px;font-family: 'ABeeZee';transition-duration:.1s !important;">Ryan Farruggia</a>
+        <button style="border: white solid 1px;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="fas fa-bars" style="color: white;"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div id="pad-change" class="navbar-nav" style="color: white; font-size: 20px;font-family:'Catamaran';">
+            <span id="sep" style="font-size: 25px;" class="nav-item nav-link">|</span>
+            <a class="nav-item nav-link nav-hover nav-underline" href="index.html#header"> Home</a>
+            <a class="nav-item nav-link nav-hover nav-underline" href="index.html#about"> About</a>
+            <a class="nav-item nav-link nav-hover nav-underline" href="index.html#portfolio"> Skills</a>
+            <a class="nav-item nav-link nav-hover nav-underline" href="index.html#sec1"> My Story</a>
+            <a class="nav-item nav-link nav-hover nav-underline" href="index.html#contact"> Contact</a>
+            <a class="nav-item nav-link nav-hover nav-underline" href="proxy.html"><i class="fas fa-unlock" style="font-size: 80%;color:deepskyblue;"></i> Education</a>
+          </div>
+        </div>
+  </nav>
+  <!--/Navigation-->
+
+
+  <!--Header-->
+  <div id="header" class="home" style="background-image: url(../images/books.jpg);">
+    <div class="container">
+      <div class="header-content">
+        <h1 class="wow fadeInRight" style="color:white;font-family:ABeeZee;text-transform:none !important;font-size:50px;">My Education</h1>
+        <p style="font-size:25px;font-family:ABeeZee;letter-spacing:1mm !important;">
+          <b class="wow fadeInUp" style="animation-delay: 200ms;">High School,</b>
+          <b class="wow fadeInUp" style="animation-delay: 400ms;">College,</b>
+          <b class="wow fadeInUp" style="animation-delay: 600ms;">and Beyond</b>
+        </p>
+				<a class="smoothscroll" href="#portfolio">
+					<div class="container">
+  					<div class="scroll-down">
+						</div>
+					</div>
+				</a>
+      </div>
+    </div>
+  </div>
+  <!--/Header-->
+
+
+  <!--Portfolio-->
+  <div id="portfolio" class="text-center paddsection" style="background-color:#333;font-family:ABeeZee !important;">
+    <div class="container" style="font-family:ABeeZee;">
+      <div id="nomargin" class="section-title text-center">
+        <h2 style="font-size: 250%; color: lightgray;text-transform: none; margin-bottom: -20px;">My Classes</h2>
+      </div>
+    </div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 text-center">
-          <h1 class="mt-5" style="font-size: 60px;">Page Under Construction</h1>
-          <p class="lead" style="font-size:25px;">Don't worry, I'll be finished here soon. Come back in a little while for more updates.</p>
-          <ul class="list-unstyled">
-            <li><a href="index.html">Go Back</a></li>
-          </ul>
+        <div class="col-md-12">
+          <div class="portfolio-list">
+            <ul class="nav list-unstyled" id="portfolio-flters">
+              <li style="font-size: 130%;" class="filter filter-active" data-filter=".all">All</li>
+              <li style="font-size: 130%;" class="filter" data-filter=".taken">Taken</li>
+              <li style="font-size: 130%;" class="filter" data-filter=".inprogress">In Progress</li>
+              <li style="font-size: 130%;" class="filter" data-filter=".guide" onclick="document.getElementById('guide').style.display = 'block';">Icon Guide</li>
+            </ul>
+          </div>
+          <div class="portfolio-container" style="font-family:Rubik;">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail taken all">
+              <a class="popup-img">
+              <div class="services-block box5 blue html5" style="border-radius: 8px;">
+                <i class="far fa-check-circle check-mark"></i>
+            		<i class="fas fa-shapes"></i>
+                <span>MATH 110</span>
+                <p class="separator" style="font-weight:800;font-size:15px;">Intermediate Geometry</p>
+            		<p class="separator">Grade Received: <b>A</b></p>
+          		</div>
+							</a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail taken all">
+              <a class="popup-img">
+              <div class="services-block box5 blue html5" style="border-radius: 8px;">
+                <i class="far fa-check-circle check-mark"></i>
+            		<i class="fas fa-square-root-alt"></i>
+                <span>MATH 120</span>
+                <p class="separator" style="font-weight:800;font-size:15px;">Intermediate Algebra</p>
+            		<p class="separator">Grade Received: <b>A+</b></p>
+          		</div>
+							</a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail inprogress all">
+              <a class="popup-img">
+              <div class="services-block box5 blue html5" style="border-radius: 8px;">
+                <i class="fas fa-chalkboard-teacher teacher animated pulse infinite"></i>
+            		<i class="fas fa-infinity"></i>
+                <span>MATH 335</span>
+                <p class="separator" style="font-weight:800;font-size:15px;">Trigonometry w/ College Alebra</p>
+            		<p class="separator">Grade Received: <b>--</b></p>
+          		</div>
+							</a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail inprogress all">
+              <a class="popup-img">
+              <div class="services-block box5 blue html5" style="border-radius: 8px;">
+                <i class="fas fa-chalkboard-teacher teacher animated pulse infinite"></i>
+            		<i class="fas fa-calculator"></i>
+                <span>ACCT 301</span>
+                <p class="separator" style="font-weight:800;font-size:15px;">Financial Accounting</p>
+            		<p class="separator">Grade Received: <b>--</b></p>
+          		</div>
+							</a>
+            </div>
+						<div class="col-lg-4 col-md-6 portfolio-thumbnail inprogress all">
+              <a class="popup-img">
+              <div class="services-block box5 blue html5" style="border-radius: 8px;">
+                <i class="fas fa-chalkboard-teacher teacher animated pulse infinite"></i>
+            		<i class="fas fa-brain"></i>
+                <span>PSYC 300</span>
+                <p class="separator" style="font-weight:800;font-size:15px;">General Psychological Principles</p>
+            		<p class="separator">Grade Received: <b>--</b></p>
+          		</div>
+							</a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail taken all">
+              <a class="popup-img">
+              <div class="services-block box5 blue html5" style="border-radius: 8px;">
+                <i class="far fa-check-circle check-mark"></i>
+            		<i class="fas fa-book-open"></i>
+                <span>HIST 312</span>
+                <p class="separator" style="font-weight:800;font-size:15px;">History of U.S. (up to 1865)</p>
+            		<p class="separator">Grade Received: <b>A+</b></p>
+          		</div>
+							</a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail inprogress all">
+              <a class="popup-img">
+              <div class="services-block box5 blue html5" style="border-radius: 8px;">
+                <i class="fas fa-chalkboard-teacher teacher animated pulse infinite"></i>
+            		<i class="fas fa-pencil-alt"></i>
+                <span>ENGWR 300</span>
+                <p class="separator" style="font-weight:800;font-size:15px;">College Composition</p>
+            		<p class="separator">Grade Received: <b>--</b></p>
+          		</div>
+							</a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail taken all">
+              <a class="popup-img">
+              <div class="services-block box5 blue html5" style="border-radius: 8px;">
+                <i class="far fa-check-circle check-mark"></i>
+            		<i class="fas fa-globe-americas"></i>
+                <span>POLS 301</span>
+                <p class="separator" style="font-weight:800;font-size:15px;">Intro to Political Science</p>
+            		<p class="separator">Grade Received: <b>B</b></p>
+          		</div>
+							</a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail taken all">
+              <a class="popup-img">
+              <div class="services-block box5 blue html5" style="border-radius: 8px;">
+                <i class="far fa-check-circle check-mark"></i>
+            		<i class="fas fa-user-astronaut"></i>
+                <span>ASTR 300</span>
+                <p class="separator" style="font-weight:800;font-size:15px;">Intro to Astronomy</p>
+            		<p class="separator">Grade Received: <b>B+</b></p>
+          		</div>
+							</a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail taken all">
+              <a class="popup-img">
+              <div class="services-block box5 blue html5" style="border-radius: 8px;">
+                <i class="far fa-check-circle check-mark"></i>
+            		<i class="fas fa-guitar"></i>
+                <span>MUFHL 315</span>
+                <p class="separator" style="font-weight:800;font-size:15px;">Jazz History</p>
+            		<p class="separator">Grade Received: <b>A+</b></p>
+          		</div>
+							</a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail taken all">
+              <a class="popup-img">
+              <div class="services-block box5 blue html5" style="border-radius: 8px;">
+                <i class="far fa-check-circle check-mark"></i>
+            		<i class="fas fa-users-cog"></i>
+                <span>SOC 321</span>
+                <p class="separator" style="font-weight:800;font-size:15px;">U.S. Ethnic/Racial Studies</p>
+            		<p class="separator">Grade Received: <b>--</b></p>
+          		</div>
+							</a>
+            </div>
+						<div class="col-lg-4 col-md-6 portfolio-thumbnail taken all">
+              <a class="popup-img">
+              <div class="services-block box5 blue html5" style="border-radius: 8px;">
+                <i class="far fa-check-circle check-mark"></i>
+            		<i class="fas fa-clipboard-list"></i>
+                <span>HCD 310</span>
+                <p class="separator" style="font-weight:800;font-size:15px;">College Success</p>
+            		<p class="separator">Grade Received: <b>A</b></p>
+          		</div>
+							</a>
+            </div>
+						<div class="col-lg-4 col-md-6 portfolio-thumbnail taken all">
+              <a class="popup-img">
+              <div class="services-block box5 blue html5" style="border-radius: 8px;">
+                <i class="far fa-check-circle check-mark"></i>
+            		<i class="fas fa-music"></i>
+                <span>MUP 357</span>
+                <p class="separator" style="font-weight:800;font-size:15px;">College Chorus</p>
+            		<p class="separator">Grade Received: <b>A+</b></p>
+          		</div>
+							</a>
+            </div>
+						<div class="col-lg-4 col-md-6 portfolio-thumbnail taken all">
+              <a class="popup-img">
+              <div class="services-block box5 blue html5" style="border-radius: 8px;">
+                <i class="far fa-check-circle check-mark"></i>
+            		<i class="fas fa-balance-scale"></i>
+                <span>BUS 345</span>
+                <p class="separator" style="font-weight:800;font-size:15px;">Business Law</p>
+            		<p class="separator">Grade Received: <b>A</b></p>
+          		</div>
+							</a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail taken all">
+              <a class="popup-img">
+              <div class="services-block box5 blue html5" style="border-radius: 8px;">
+                <i class="far fa-check-circle check-mark"></i>
+            		<i class="fas fa-dumbbell"></i>
+                <span>FITNS 320</span>
+                <p class="separator" style="font-weight:800;font-size:15px;">Body Fitness</p>
+            		<p class="separator">Grade Received: <b>A</b></p>
+          		</div>
+							</a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail taken all">
+              <a class="popup-img">
+              <div class="services-block box5 blue html5" style="border-radius: 8px;">
+                <i class="far fa-check-circle check-mark"></i>
+            		<i class="fas fa-comments"></i>
+                <span>PHIL 300</span>
+                <p class="separator" style="font-weight:800;font-size:15px;">Intro to Philosophy</p>
+            		<p class="separator">Grade Received: <b>B-</b></p>
+          		</div>
+							</a>
+            </div>
+            <div class="guide" id="guide">
+              <div class="col-lg-4 col-md-6 portfolio-thumbnail guide">
+                <a class="popup-img">
+                <div class="services-block box5 blue html5" style="border-radius: 8px;">
+                  <i class="far fa-check-circle" style="color:forestgreen !important;"></i>
+                  <span>"Taken"</span>
+                  <p class="separator" style="font-weight:800;font-size:15px;">Any Class w/ Finalized Grades</p>
+                </div>
+                </a>
+              </div>
+              <div class="col-lg-4 col-md-6 portfolio-thumbnail guide">
+                <a class="popup-img">
+                <div class="services-block box5 blue html5" style="border-radius: 8px;">
+                  <i class="fas fa-chalkboard-teacher" style="color:rgb(0, 140, 255) !important"></i>
+                  <span>"In Progress"</span>
+                  <p class="separator" style="font-weight:800;font-size:15px;">Classes Currently Enrolled In</p>
+                </div>
+                </a>
+              </div>
+              <div class="col-lg-4 col-md-6 portfolio-thumbnail guide">
+                <a class="popup-img">
+                <div class="services-block box5 blue html5" style="border-radius: 8px;">
+                  <i class="far fa-times-circle" style="color:red !important;"></i>
+                  <span>"Withdrew/Dropped"</span>
+                  <p class="separator" style="font-weight:800;font-size:15px;">Any Classes Withdrawn or Dropped</p>
+                </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+		</div>
+  </div>
+  <!--/Portfolio-->
+
+  
+  <!--Contact-->
+  <div class="flex" style="background-color: #111;">
+    <div id="contact" class="paddsection" style="background-color: #111;">
+      <div class="container">
+        <div class="contact-block1">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="contact-contact">
+                <h2 class="mb-30 wow fadeInUp" style="color: ghostwhite;" data-wow-duration="300ms">Contact Me</h2>
+                <ul class="contact-details" style="color: rgb(216, 216, 216); height:100%;">
+                  <li>
+                    <span>
+                      <i class="fas fa-globe-americas wow fadeInUp" style="color:deepskyblue;" data-wow-duration="250ms" data-wow-delay="750ms"></i>
+                      123 Gerudo Valley, 98760
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="fas fa-compass wow fadeInUp" style="color:red;" data-wow-duration="250ms" data-wow-delay="850ms"></i> 
+                      California, United States
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="fas fa-mobile-alt wow fadeInUp" style="font-size: 19px;color:white;" data-wow-duration="250ms" data-wow-delay="950ms"></i> 
+                      &nbsp;+1 (456) 789-0123
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="fas fa-envelope-open wow fadeInUp" style="color:orange;" data-wow-duration="250ms" data-wow-delay="1050ms"></i> 
+                      <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=rjfarruggia@gmail.com" target="_blank" style="color:deepskyblue;">
+                        rjfarruggia@gmail.com
+                      </a>
+                    </span>
+                  </li>
+                  <br>
+                  <li style="font-size: 20px;">
+                    <span style="color: white; font-weight: 300;">
+                      <i class="fas fa-exclamation-triangle flasher" style="color: yellow;" data-wow-duration="250ms"></i>
+                      &nbsp; Form is not functional yet
+                    </span>
+                  </li>
+                    <li>Click my e-mail to auto-compose w/ Gmail</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6" style="font-family:Rubik;">
+              <form action="" method="post" role="form" class="contactForm" id="form1">
+                <div class="row">
+                  <div id="sendmessage">Your message has been sent. Thank you!</div>
+                  <div id="errormessage"></div>
+                  <div class="col-lg-6">
+                    <div class="form-group contact-block1 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="350ms">
+                      <input type="text" name="name" class="form-control input-readonly" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter your full name."/>
+                      <div class="validation"></div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="form-group wow fadeInUp" data-wow-delay="300ms" data-wow-duration="350ms">
+                      <input type="email" class="form-control input-readonly" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email." />
+                      <div class="validation"></div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="form-group wow fadeInUp" data-wow-delay="400ms" data-wow-duration="350ms">
+                      <input type="text" class="form-control input-readonly" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Subject must be at least 8 characters."/>
+                      <span class="underline"></span>
+                      <div class="validation"></div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="form-group wow fadeInUp" data-wow-delay="500ms" data-wow-duration="350ms">
+                      <textarea class="form-control input-readonly" name="message" rows="12" data-rule="required" data-msg="Please include a message describing your inquiry." placeholder="Message"></textarea>
+                      <div class="validation"></div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                  <div class="col-lg-12 sendmessage wow fadeInUp" data-wow-delay="600ms" data-wow-duration="350ms">
+                    <input type="submit" class="btn btn-default btn-send box2" value="Send message">
+                  </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <script src="lib/jquery/jquery.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  </body>
-</html>
+  </div>
+  <!--/Contact-->
 
+
+  <!--Footer-->
+  <div id="footer" class="text-center" style="background-color: #333;">
+    <div class="container">
+      <p style="font-size: 22px;color: white;">&copy; 
+          <a href="index.html#header" class="text" style="color: white;">Ryan Farruggia</a>
+      <i style="color: deepskyblue;" class="fas fa-user-graduate"></i> 2017-2019
+    </p>
+    </div>
+  </div>
+  <!--/Footer-->
+
+
+  <!--Scripts-->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="contactform/contactform.js"></script>
+    <script src="js/main.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script href="js/jquery3.1.min.js"></script>
+    <script>
+  new WOW().init();
+    </script>
+  <!--/Scripts-->
+
+  
+</body>
+</html>
