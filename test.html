@@ -1,0 +1,45 @@
+<head>
+    <style>
+
+.container {
+    height: 100%;
+    -webkit-perspective: 500px;
+    perspective: 500px;
+    -webkit-perspective-origin: 0 0;
+    perspective-origin: 0 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.banner {
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d; /* firefox requires this for children */
+    z-index: -1;
+}
+
+.banner .image {
+    -webkit-transform: translateZ(-300px) scale(2);
+    transform: translateZ(-300px) scale(2);
+    width: 100%;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+}
+    </style>
+</head>
+
+<div class="container">
+    <div class="banner">
+        <img src="http://5d48184523c8a489ed05-91a4b8ed85c04e5358f91889505a4163.r43.cf1.rackcdn.com/6/4/large.jpg" alt="" class="image" />
+    </div>
+
+    <div class="content">
+        <h1>Lorem ipsum dolor sit amet</h1>
+        <p>Consectetur adipiscing elit. Aliquam non ligula non sem pulvinar efficitur vitae sed arcu.</p>
+        <p>Consectetur adipiscing elit. Aliquam non ligula non sem pulvinar efficitur vitae sed arcu.</p>
+        <p>Sed et quam id massa pellentesque interdum. In rutrum, odio a tincidunt feugiat, tellus arcu maximus turpis, nec lacinia leo lacus ac dui. Donec congue commodo nisi in tristique.</p>
+    </div>
+</div>
