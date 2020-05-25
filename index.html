@@ -39,31 +39,45 @@
 
   <!--Navigation-->
 
-  <nav class="navbar navbar-expand-lg" style="background-color: #222; margin: 0; color: white;position:fixed;padding-bottom: 15px;padding-top: 15px;">
-    <a class="navbar-brand nav-hover" href="#" style="font-size: 25px;font-family: 'ABeeZee';transition-duration:.1s !important;">Ryan Farruggia</a>
-        <button style="border: white solid 1px;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="fas fa-bars" style="color: white;"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div id="pad-change" class="navbar-nav" style="color: white; font-size: 20px;font-family:'Catamaran';">
-            <span id="sep" style="font-size: 25px;" class="nav-item nav-link">|</span>
-            <a class="nav-item nav-link nav-hover nav-underline" href="#header"> Home</a>
-            <a class="nav-item nav-link nav-hover nav-underline" href="#about"> About</a>
-            <a class="nav-item nav-link nav-hover nav-underline" href="#portfolio"> Skills</a>
-            <a class="nav-item nav-link nav-hover nav-underline" href="#sec1"> My Story</a>
-            <a class="nav-item nav-link nav-hover nav-underline" href="#contact"> Contact</a>
-            <a class="nav-item nav-link nav-hover nav-underline" href="proxy.html"><i class="fas fa-lock" style="font-size: 80%;color:deepskyblue;"></i> Education</a>
+  <nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color fixed-top" style="background-color:#333;">
+    <a class="navbar-brand" href="index.html">Ryan Farruggia</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+      aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html#header2">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#portfolio">Skills</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Personal
+          </a>
+          <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+            <a class="dropdown-item" href="index.html#sec1">My Story</a>
+            <a class="dropdown-item" href="index.html#contact">Contact</a>
+            <a class="dropdown-item" href="proxy.html">Education <i style="font-size:12px;color:red;" class="fas fa-lock"></i></a>
+            <a class="dropdown-item" href="music.html">Music</a>
           </div>
-        </div>
+        </li>
+      </ul>
+    </div>
   </nav>
 
   <!--Header-->
 
-  <div id="header" class="home">
+  <div id="header2" class="home">
     <div class="container">
-      <div class="header-content">
+      <div class="header-content2">
         <h1 style="color: white">I'm <span class="typed"></span></h1>
-        <p style="font-size:20px;"><b class="animated fadeInLeft" style="animation-delay: 200ms;">Engineer,</b> <b class="animated fadeInLeft" style="animation-delay: 400ms;">Developer,</b> <b style="animation-delay: 600ms;" class="animated fadeInLeft">Student</b></p>
+        <p style="font-size:20px;color:#ddd;"><b class="animated fadeInLeft" style="animation-delay: 200ms;">Engineer,</b> <b class="animated fadeInLeft" style="animation-delay: 400ms;">Developer,</b> <b style="animation-delay: 600ms;" class="animated fadeInLeft">Student</b></p>
     		<ul class="social-icons">
         <li><a href="https://www.facebook.com/rfarr99" class="social-icon box10" target="_blank"> <i style="border-radius: 5px;" class="fab fa-facebook"></i></a></li>
         <li><a href="https://stackoverflow.com/" class="social-icon box10" target="_blank"> <i style="border-radius: 5px;" class="fab fa-stack-overflow"></i></a></li>
@@ -88,7 +102,7 @@
             <div class="col-lg-4" id="hide">
               <div class="div-img-bg" style="border-radius: 10px; border-color: white;">
                 <div class="about-img">
-                  <img src="https://media.giphy.com/media/3ohs85MNgUeodW5Ryo/giphy.gif" class="img-responsive" alt="me" style="border-radius: 10px;">
+                  <img src="images/fund.gif" class="img-responsive" alt="me" style="border-radius: 10px;">
                 </div>
               </div>
             </div>
@@ -195,7 +209,7 @@
         <div class="col-lg-4" id="hide" style="margin-top: 80px;">
           <div class="div-img-bg" style="border-radius: 10px;border-color: white;">
             <div class="about-img" style="margin-left: -100px; margin-right: 70px;">
-              <img src="https://cdn.dribbble.com/users/298384/screenshots/3897360/lisa-dribbble.gif" class="img-responsive" alt="me" style="border-radius: 10px;">
+              <img src="images/ai.gif" class="img-responsive" alt="me" style="border-radius: 10px;">
             </div>
           </div>
         </div>
@@ -420,7 +434,7 @@
 
 				<div class="col-lg-4" id="hide3">
           <div class="container1">
-							<div class="avatar1" style="background-image:url('https://icons-for-free.com/iconfiles/png/512/communication+logo+media+network+social+stackoverflow+icon-1320193178559149850.png')" id="hide5">
+							<div class="avatar1" style="background-image:url('../images/so.png')" id="hide5">
 							</div>
 						</div>
         </div>
@@ -430,13 +444,13 @@
 	<div id="sec2" class="paddsection" style="padding-top:120px; padding-bottom: 120px; background-color: #333;">
     <div class="container">
 			<div class="coin">
-				<img src="https://discordapp.com/assets/9e05338bd66e0985fceb83317cb94b9c.svg" id="hide5">
+				<img src="images/coin.svg" id="hide5">
 			</div>
 			<div class="bomb" id="hide1">
-				<img src="https://discordapp.com/assets/eb301f28da3199edbd3ef19690d61674.svg">
+				<img src="images/bomb.svg">
 			</div>
 			<div class="controller" id="hide1">
-				<img src="https://discordapp.com/assets/c4bae281354a2b4e2db85415955e0994.svg">
+				<img src="images/controller.svg">
 			</div>
       <div class="row justify-content-between">
         <div class="col-lg-4" id="hide5">
@@ -456,7 +470,7 @@
               Video games are okay, I guess. Thousands of childhood and college days ground up into little bite size pieces of gamer knowledge. I love Nintendo, I envy Valve, and I hate Bethesda - because
             that's the right thing to do.</p>
 						<div class="block" id="hide2">
-						<img src="https://discordapp.com/assets/81d74b2ebb053fbccee41865a47d48c3.svg">
+						<img src="images/block.svg">
 						</div>
             <p class="wow fadeIn" style="font-size: 17px;color:lightgray;animation-delay: 400ms;">Yeah, I'd probably have a stroke if I was stripped of my only fun outlet outside of minimum wage work
             and 50 page theses.</p>
@@ -498,7 +512,7 @@
 
           <div class="col-lg-4" id="hide3">
             <div class="container1">
-                <div class="avatar1" style="background-image:url('https://media.giphy.com/media/a3DDodjzlibOo/giphy.gif')" id="hide5">
+                <div class="avatar1" style="background-image:url('../images/tech.gif')" id="hide5">
                 </div>
               </div>
           </div>
@@ -622,7 +636,6 @@
   <script src="contactform/contactform.js"></script>
   <script src="js/main.min.js"></script>
   <script src="js/wow.min.js"></script>
-  <script href="js/jquery3.1.min.js"></script>
   <script>
   new WOW().init();
   </script>
