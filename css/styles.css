@@ -15,6 +15,9 @@ footer {
   background-color: #202020;
   width: 100%;
 }
+footer p, footer a {
+  font-family: "Inter", Arial, Helvetica, sans-serif !important;
+}
 
 .social:hover {
   border-bottom: 3px solid white;
